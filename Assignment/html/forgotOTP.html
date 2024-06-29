@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registration.css">
+   
+   <script src="javascript/forgotpass.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="signin_password.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="text-center">
+            <img src="Amazon-Logo.jpg" class="rounded" alt="..." height="70" width="100">
+          </div>
+        <div class="card" style="width: 28%;margin: auto;border-radius: 10px;">
+         
+            <div class="card-body">
+                <h3 id="head1">verification Required</h3>
+                To continue, complete this verification step. We've sent an OTP to the email  Please enter it below to complete verification.<div class="input-group flex-nowrap">
+                    <br>
+                    
+                    <input type="text" class="form-control"  aria-label="Username" aria-describedby="addon-wrapping" id="otp">
+                    
+                </div>
+                
+                <div>
+                    <label>Enter new password</label><br>
+                <input type="text" class="form-control"  aria-label="Username" aria-describedby="addon-wrapping" id="pass">
+            
+                </div>
+                <br>
+                <button class="btn btn-warning" type="button" style="border-radius: 5px;width: 100%;" onclick="check2()">Continue</button>
+               <br><br>
+               <label style="margin-left: 40%;" onclick="window.location.href='forgotpass.html'">Resend OTP</label>
+           
+            </div>
+            </div>
+            
+            
+        </div>
+            <br>
+            
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registration.css">
+    <script src="javascript/registerOTP.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/registerOtp.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="text-center">
+            <img src="Amazon-Logo.jpg" class="rounded" alt="..." height="70" width="100">
+          </div>
+        <div class="card" style="width: 28%;margin: auto;border-radius: 10px;">
+         
+            <div class="card-body">
+                <h3 id="head1">Verify Email Address</h3>
+              <div>A text with a One Time Password (OTP) has been sent to your email address:<a href="registration.html">Change</a></div><br>
+                <label class="sub-head">Enter Otp</label><label style="float: right;"><a onclick="resend()">resend otp</a></label>
+                <div class="input-group flex-nowrap">
+                    <input type="text" class="form-control"  aria-label="Username" aria-describedby="addon-wrapping" id="otp">
+                </div>
+                <br>
+                <button class="btn btn-warning" type="button" style="border-radius: 5px;width: 100%;" onclick="validate()">Create your Amazon account</button>
+               <br>
+               <div id="war3">By creating an account or logging in, you agree to Amazon’s <a style="color: blue;">Conditions</a> of Use and <a style="color: blue;">Privacy Policy</a>.</div>
+               <br>
+               
+            </div>
+            </div>
+            
+            
+        </div>
+            <br>
+            
+    </div>
+</body>
+</html>

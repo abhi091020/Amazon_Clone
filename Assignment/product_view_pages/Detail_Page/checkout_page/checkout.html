@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Checkout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Load a font called Roboto from Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="checkout.js"></script>
+    <!-- Here are the CSS files for this page. -->
+    <link rel="stylesheet" href="checkout_css/shared/general.css" />
+    <link rel="stylesheet" href="checkout_css/pages/checkout/checkout-header.css" />
+    <link rel="stylesheet" href="checkout_css/pages/checkout/checkout.css" />
+  </head>
+  <body>
+    <div class="checkout-header">
+      <div class="header-content">
+        <div class="checkout-header-left-section">
+          <a href="#">
+            <img class="amazon-logo" src="checkout_images/amazon-logo.png" />
+            <img
+              class="amazon-mobile-logo"
+              src="checkout_images/amazon-mobile-logo.png"
+            />
+          </a>
+        </div>
+
+        <div class="checkout-header-middle-section">
+          Checkout (<a class="return-to-home-link" href="#">Items</a
+          >)
+        </div>
+
+        <div class="checkout-header-right-section">
+          <img src="checkout_images/icons/checkmark.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="page-title">Review your order</div>
+
+      <div class="checkout-grid">
+        <div class="order-summary js-order-summary">
+          <img src="https://m.media-amazon.com/images/I/71BWRFDmzJL._AC_UY327_FMwebp_QL65_.jpg" id="image">
+        </div>
+
+        <div class="payment-summary">
+          <div class="payment-summary-title">Order Summary</div>
+
+          <div class="payment-summary-row">
+            <div id="count">Items (1):</div>
+            <div class="payment-summary-money" id="total">50000</div>
+          </div>
+
+          <div class="payment-summary-row">
+            <div>Shipping &amp; Handling:</div>
+            <div class="payment-summary-money">0</div>
+          </div>
+
+          <div class="payment-summary-row subtotal-row">
+            <div>Total before tax:</div>
+            <div class="payment-summary-money" id="bTax">0</div>
+          </div>
+
+          <div class="payment-summary-row">
+            <div>Estimated tax (0%):</div>
+            <div class="payment-summary-money">0</div>
+          </div>
+
+          <div class="payment-summary-row total-row">
+            <div>Order total:</div>
+            <div class="payment-summary-money" id="final"></div>
+          </div>
+
+          <button class="place-order-button button-primary" onclick="place()">
+            Place your order
+          </button>
+        </div>
+      </div>
+      <div>
+      <button class="btn">Home</button>
+    </div>
+    </div>
+    
+  </body>
+</html>
